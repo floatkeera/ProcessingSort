@@ -37,7 +37,6 @@ if(k>=cheesesticks.length-1){
     cheesesticks[k]=cheesesticks[k+1];
     cheesesticks[k+1] = temp;
     draw_arr();
-    delay(50);
     }
 
   k++;
