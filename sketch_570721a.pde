@@ -18,7 +18,8 @@ void draw_arr()
 
   for(int i=0; i<18; i++) {
     int z = cheesesticks[i];
-    rect(i*20, 0, 20, z);
+    fill(255,255,0);
+    rect(i*25, 0, 20, z);
    
   }
 }
